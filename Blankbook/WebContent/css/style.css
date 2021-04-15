@@ -1,0 +1,42 @@
+.theme-light {
+  --color-primary: #DAE0E6;
+  --color-secondary: #fbfbfe;
+  --color-accent: #ffffff;
+  --font-color: #000000;
+}
+.theme-dark {
+  --color-primary: #222831;
+  --color-secondary: #00adb5;
+  --color-accent: rgba(145, 145, 145, 0.514);
+  --font-color: #eeeeee;
+}
+
+body{
+	background-color: var(--color-primary);
+	color: var(--font-color);
+}
+
+#text *{
+  color: var(--font-color);
+}
+
+#dropdown {
+	background-color: var(--color-primary);
+}
+
+#dropdown *{
+	color: var(--font-color);
+}
+
+.container {
+	box-shadow: 5px 10px #888888;
+	margin-top: 20px;
+ 	background-color: var(--color-accent);
+}
+
+#tag {
+	border: 2px solid var(--color-secondary);
+	border-radius: 10px;
+	margin: 5px;
+}
+
