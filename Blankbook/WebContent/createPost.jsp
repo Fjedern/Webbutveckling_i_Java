@@ -7,7 +7,7 @@
 
 <head>
   <meta charset="ISO-8859-1">
-  <title>Insert title here</title>
+  <title>Create Post</title>
 
   <!-- Bootstrap core CSS -->
   <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
